@@ -1,0 +1,57 @@
+#title {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #f28b82;
+  line-height: 3;
+}
+
+body {
+  background-color: #202124;
+}
+
+.links {
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: right;
+}
+
+#findpagetext {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+input {
+  margin: left;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #202124;
+}
+
+form table tr td {
+  font-family: sans-serif;
+  color: #ffffff;
+  list-style-type: none;
+  text-align: left;
+  line-height: 2;
+  width: 40%;
+}
+
+#links {
+  font-family: sans-serif;
+  text-align: right;
+  vertical-align: text-top;
+}
+
+#searchbutton {
+  font-weight: bold;
+  border: 1px solid #8ab4f8;
+  background: #8ab4f8;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#searchbutton, select, textarea {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=advanced_styles.css.map */

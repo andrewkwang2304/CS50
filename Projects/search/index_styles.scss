@@ -1,0 +1,76 @@
+$base-font: sans-serif;
+$color-white: #ffffff;
+$google-darkgray: #202124;
+
+body {
+	background-color: $google-darkgray;
+}
+
+/* For links in the upper-right */
+
+.links {
+	font-family: $base-font;
+}
+
+div {
+	text-align: right;
+	vertical-align: text-top;
+}
+
+/* This part is for the Google logo */
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding-bottom: 20px;
+}
+
+/* This is used for the "Images" text in "Google Images" */
+
+
+.container {
+	position: relative;
+	text-align: center;
+	font-family: $base-font;
+	font-size: 20px;	
+	color: #4487f6;	
+}
+  
+.bottom-right {
+	position: absolute;
+	bottom: 20px;
+	right: 540px;
+}
+
+/* This part is for the Google search bar and buttons */
+
+form {
+	text-align: center;
+}
+
+#oneline {
+	white-space: nowrap;
+	text-align: center;
+}
+
+
+input {
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	color: $color-white;
+	background-color: $google-darkgray;
+}
+
+#searchbutton, #luckybutton {
+        border: 1px solid #303134;
+	border-radius: 4px;
+	background: #303134;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: inline;
+}
